@@ -91,6 +91,7 @@ st.markdown("""
 
 """)
 st.write("---")
+
 # Header
 st.title("Hard Skills")
 
