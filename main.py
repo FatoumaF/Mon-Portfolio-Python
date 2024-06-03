@@ -5,7 +5,7 @@ from PIL import Image
 # Path parameters
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "FatoumaFofana Resume.pdf"
+resume_file = current_dir / "assets" / "Professional CV Resume (3).pdf"
 profil_pic_path = current_dir / "assets" / "profile-pic 2.png"
 
 # General variables
@@ -90,7 +90,7 @@ st.markdown("""
   *LYCÉE PIERRE LESCOT 2016*
 
 """)
-
+st.write("---")
 # Header
 st.title("Hard Skills")
 
